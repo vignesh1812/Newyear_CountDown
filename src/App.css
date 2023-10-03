@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#countdowntimer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("./pexels-pixabay-128872.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  
+}
+
+
+.CountDown{
+  font-size: 1.6rem;
+}
+
+.to{
+  margin-top: 15px;
+  font-size: 1.3rem;
+}
+
+#countdowntimer>h2{
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+
+#counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+
+#counter .Box{
+  text-align: center;
+  height: 60px;
+  width: 60px;
+}
+
+#counter .Box h4{
+  font-size: 1.3rem;
+}
+
+
+
+@media(max-width:576px){
+  .to{
+    font-size: 1.1rem;
+  }
+  }
+
+  @media(max-width:375px){
+    .to{
+      font-size: 1rem;
+    }
+  }
